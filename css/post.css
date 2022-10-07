@@ -1,0 +1,96 @@
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "a c"
+    "b c";
+    grid-template-rows: 2fr 2fr ;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 4px;
+    width: 350px;
+    height: 300px;
+    border-style: dashed;
+    border-width: 1.5px;
+    border-color: #af8084;
+    margin-left: -50px;
+  }
+
+  figcaption{
+margin-top: 10px;
+margin-left: 100px;
+font-size: smaller;
+ }
+
+.item1{
+
+    grid-area: a;
+    background-image: url("../img/Banoffee pie pancakes2.jfif");
+    background-position: center;
+
+  }
+
+  .item2{
+
+    grid-area: b;
+    background-image: url("../img/Banoffee pie pancakes3.jfif");
+    background-position: center;
+
+
+  }
+
+  .item3{
+
+    grid-area: c;
+    background-image: url("../img/Banoffee pie pancakes31.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+
+  }
+.post_topic{
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 380px;
+    color: #af8084;
+    }
+
+
+.auther{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 365px;
+    color:gainsboro;
+
+
+    }
+.Ingredients{
+        margin-top: 150px;
+        padding-left: 10px;
+        color: black;
+        border-style: dashed;
+        border-width: 1.5px;
+        border-color: #af8084;
+        width:700px;
+    }
+
+.Ingredients h3{
+        text-decoration: underline;
+        color: #8e6c66;
+        font-weight: bold;
+    }
+
+
+
+.Method{
+       margin-top: 100px;
+        margin-left: 20px;
+    }
+
+#authorinfo{
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 120px;
+    width: 350px;
+
+}
+
+    
