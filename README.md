@@ -18,6 +18,6 @@ Mobile HOME page
 
 Mobile post page 
 
-![](img/post 600px.png)
+![](img/post600px.png)
 
 
