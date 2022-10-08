@@ -7,7 +7,7 @@ Note: The active blog post is the Banoffee-pie-pancakes post, clicking on the Re
 
 HOME PAGE
 
-![](img/home.png)
+![](img/Home.png)
 
 POST:
 ![](img/post.png)
