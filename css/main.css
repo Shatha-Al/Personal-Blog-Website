@@ -1,0 +1,199 @@
+@import url(post.css);
+@import url(header.css);
+@import url(footer.css);
+
+
+.contentbody{
+    display: grid;
+    grid-template-areas:
+      'header header header header header header'
+      'bio bio bio bio bio bio'
+      'contentBox contentBox contentBox contentBox contentBox contentBox'
+      'footer footer footer footer footer footer';
+    padding: 10px;
+}
+
+.header { 
+  grid-area: header;
+ }
+
+.bio { 
+  grid-area: bio; 
+}
+.contentBox { 
+  grid-area: contentBox; 
+}
+.footer { 
+  grid-area: footer; 
+}
+
+.contentBox{
+
+        height: 50%;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        padding:5%;
+        margin-left: 50px;
+        margin-top: -40px;
+}
+
+
+.card1{
+  width: 100%;
+  height:200px;
+      }
+
+.card1:hover{
+  opacity: 0.3;
+      }
+
+.post{
+  padding: 10px;
+  margin: 5%;
+  margin-bottom: 0%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 13px;
+      }
+
+
+
+
+
+body{
+  overflow-x: hidden;
+}
+
+h1{
+  right: 100px;
+
+}
+
+.welcome{
+  text-align: center;
+  color: #584332;
+}
+
+
+.buttons{
+  padding:0.8em 1.7em;
+  border:0.1em solid #FFFFFF;
+  border-radius:1em;
+  margin-left: 30%;
+  text-align:center;
+  font-weight: Italic;
+
+}
+
+
+.buttons:hover{
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 11px;
+}
+
+#read-more:hover{
+  color: #af8084;
+}
+
+h2{
+  color: #af8084;
+}
+
+.post p{
+  color: #584332;
+}
+
+
+
+#read-more{
+  color: black;
+  text-decoration:none;
+}
+
+
+#quotes{
+  quotes: '‹' '›' '«' '»';
+}
+
+
+
+
+
+@media (max-width:801px) {
+ 
+  .header{
+    margin: 10px;
+  }
+  .bio{
+    margin-left: -500px;
+  }
+  
+    .contentBox {
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      margin-left: -10px;
+      margin-top: -40px;
+      margin-right: 100px;
+    }
+    .post p{
+      display: none;
+    }
+    .post h2{
+      margin-left: 10px;
+    }
+    .post{
+      width: 200px;
+    }
+    .footer{
+      padding-left: 50px;
+    }
+    .social-media{
+      margin-left: 50px;
+    }
+  }
+
+
+@media (max-width: 600px) {
+  .bio{
+    margin-left: -700px;
+    
+  }
+  .bio p{
+
+    display: none;
+
+  }
+  .header{
+    margin: 10px;
+  }
+	.contentBox {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-top: -40px;
+    margin-right: 100px;
+    
+	}
+  .post p{
+    display: none;
+  }
+  .post{
+    width: 200px;
+  }
+  h2{
+
+    font-size: 15px;
+  }
+  .footer{
+    padding-left: 60px;
+  }
+  .social-media{
+    margin-left: 50px;
+  }
+}
+
+
+  

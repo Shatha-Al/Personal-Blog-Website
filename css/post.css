@@ -1,0 +1,195 @@
+
+
+
+
+.contentbody1{
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'contentBox contentBox contentBox contentBox contentBox contentBox'
+    'footer footer footer footer footer footer';
+  padding: 10px;
+}
+
+.header1{ 
+  grid-area: header;
+ }
+
+.contentBox1{ 
+  grid-area: contentBox; 
+}
+.footer1{ 
+  grid-area: footer; 
+}
+.contentBox1{
+
+  height: 50%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  padding:5%;
+  margin-left: 50px;
+  margin-top: -40px;
+}
+.grid-container {
+    display: grid;
+    grid-template-areas:
+    "a c"
+    "b c";
+    grid-template-rows: 2fr 2fr ;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 4px;
+    width: 350px;
+    height: 300px;
+    border-style: dashed;
+    border-width: 1.5px;
+    border-color: #af8084;
+    margin-left: -50px;
+  }
+
+  figcaption{
+margin-top: 10px;
+margin-left: 100px;
+font-size: smaller;
+ }
+
+.item1{
+
+    grid-area: a;
+    background-image: url("../img/Banoffee pie pancakes2.jfif");
+    background-position: center;
+
+  }
+
+  .item2{
+
+    grid-area: b;
+    background-image: url("../img/Banoffee pie pancakes3.jfif");
+    background-position: center;
+
+
+  }
+
+  .item3{
+
+    grid-area: c;
+    background-image: url("../img/Banoffee pie pancakes31.jpg");
+    background-size: 400px;
+    background-repeat: no-repeat;
+
+  }
+.post_topic{
+    position: absolute;
+    margin-top: 20px;
+    margin-right: 380px;
+    color: #af8084;
+    }
+
+
+.auther{
+    position: absolute;
+    margin-top: 45px;
+    margin-left: 365px;
+    color:gainsboro;
+
+
+    }
+.Ingredients{
+        margin-top: 150px;
+        padding-left: 10px;
+        color: black;
+        border-style: dashed;
+        border-width: 1.5px;
+        border-color: #af8084;
+        width:700px;
+    }
+
+.Ingredients h3{
+        text-decoration: underline;
+        color: #8e6c66;
+        font-weight: bold;
+    }
+
+
+
+.Method{
+       margin-top: 100px;
+        margin-left: 20px;
+    }
+
+#authorinfo{
+    margin-left: 200px;
+    position: absolute;
+    margin-top: -60%;
+    margin-left: 120px;
+    width: 350px;
+
+}
+
+@media (max-width: 801px) {
+
+  .post_topic{
+    position: relative;
+    margin-left: 450px;
+  }
+  .grid-container{
+    margin-top: -180px;
+    
+  }
+  .auther{
+    margin-top: 130px;
+    margin-left: 350px;
+  }
+
+	.Ingredients{
+margin-top: 300px;
+margin-left: -960px;
+width: 500px;
+margin-bottom: 90px;
+  }
+  .footer1{
+    padding-right: 1000px;
+  }
+  .header1{
+    margin:-10px;
+  }
+
+ 
+}
+
+@media (max-width: 601px) {
+
+  .post_topic{
+    position: relative;
+    margin-left: 370px;
+  }
+  .grid-container{
+    margin-top: -175px;
+    margin-left: -130px;
+  }
+  .auther{
+    margin-top: 130px;
+    margin-left: 270px;
+  }
+
+	.Ingredients{
+    margin-top: 300px;
+    margin-left: -960px;
+    width: 500px;
+  }
+  .footer1{
+    padding-right: 1000px;
+  }
+  .header1{
+    margin:-10px;
+  }
+ 
+ 
+}
+
+
+
+
+
+    
