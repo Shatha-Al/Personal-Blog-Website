@@ -12,12 +12,6 @@ HOME PAGE
 POST:
 ![](img/post.png)
 
-Mobile HOME page 
 
-![](img/600px.png)
-
-Mobile post page 
-
-![](img/post600px.png)
 
 
